@@ -12,17 +12,22 @@ span1{
 .contenedor{
     display: flex;
     justify-content: center;
+ 
 }
 
 .vspc{
-    background-color: aqua;
+    background-color: transparent;
     width: 250px;
     height: 250px;
 
+    margin-left: 1px;
+    margin-right: 1px;
 }
 .vsjp{
-    background-color: black;
+    background-color: transparent;
     width: 250px;
     height: 250px;
-
+    border: 0;
+    margin-left: 1px;
+    margin-right: 1px;
 }
