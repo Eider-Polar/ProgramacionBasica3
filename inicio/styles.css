@@ -1,0 +1,28 @@
+span{
+    margin-top: 150px;
+    font-size: 130px;
+    margin-left: 150px;
+}
+span1{
+    
+    font-size: 90px;
+    margin-left: 150px;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+}
+
+.vspc{
+    background-color: aqua;
+    width: 250px;
+    height: 250px;
+
+}
+.vsjp{
+    background-color: black;
+    width: 250px;
+    height: 250px;
+
+}
