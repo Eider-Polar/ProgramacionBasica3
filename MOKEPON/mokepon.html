@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,7 +12,14 @@
     <section id="Seleccionar-mascota" >
         <h2>Elige tu mascota:</h2>
         MASCOTAS 
-        <button>Seleccionar </button>
+        <label for="hipodoge">hipodoge</label>
+        <input type ="radio" name="mascota" id="hipodoge">
+        <label for="capipepo">capipepo</label>
+        <input type ="radio" name="mascota" id="capipepo">
+
+        <label for="ratigueya">ratigueya</label>
+        <input type ="radio" name="mascota" id="ratigueya">
+        <button id="Boton-mascota">Seleccionar </button>
     </section>
 
 
@@ -21,9 +29,9 @@
         <p>Tu mascota tiene <span>3</span> vidas</p>
         <p>la mascota mascota del enemigo tiene <span>3</span> vidas</p>
         <p>
-            <button>Fuego</button>
-            <button>agua </button>
-            <button>Tierra </button>
+            <button id="fuego">Fuego</button>
+            <button id="agua">agua </button>
+            <button id="tierra">Tierra </button>
         </p> 
     </section> 
     <section id="mensajes">
@@ -37,6 +45,7 @@
     </section>
 
 
-
+    
 </body>
+<script src="js/app.js"></script>
 </html>
