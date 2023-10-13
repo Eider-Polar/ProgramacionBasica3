@@ -1,0 +1,22 @@
+.img{
+    position: absolute;
+    top: 39%;
+    right: 33%;
+    width: 79px;
+    height: 75px;
+}
+
+.img1{ 
+    position: absolute;   
+    top: 35px;
+    left: 5px;
+    width: 35px;
+}
+.img2{
+    position: absolute;
+    background-color:transparent;
+    bottom: 40px;
+    transform: rotate(180deg);
+    width: 35px;
+    right: 5px;
+}
