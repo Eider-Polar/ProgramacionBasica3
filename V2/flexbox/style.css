@@ -1,0 +1,48 @@
+body{
+    background-color: beige;
+}
+/* se suele utilizar para estructuras de una sola dimensión, es decir, contenedores que sólo van en una dirección*/
+.flex-container{
+    border: 1px solid black;
+    background: #ccc;
+    padding: 20px;/*crea el espacio o área alrededor del contenido de un elemento*/
+    display: flex;/* ayuda a colocar las cajas como si fueran celdas de tablas, con un comportamiento predecible y adaptable.*/
+    flex-flow: row wrap;/*se resumen los valores de las propiedades */
+    justify-content: center;
+    align-content: center;
+    width: 80%;
+    height: 600px;
+    margin: 0 auto;
+}
+.caja{
+    border: 1px solid  rgb(70,70,79);
+    background-color: white;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;/*cambia  el tipo de letra de la pagina, coloca  la tipografia que este descargada en el pc */
+    font-weight: bold;/*establecer el tamaño de las letras*/
+    width: 120px;
+
+    line-height: 120px;
+    text-align: center;
+    margin: 5px;
+    overflow: hidden;
+   
+}
+.C1{
+    background: lightblue;
+    order: 2;
+    flex-grow: 1;/*especifica la cantidad de espacio restante dentro del contenedor */
+    flex-basis: 50%;/*especifíca la base flexible, la cual es el tamaño inicial de un elemento flexible*/
+}
+.C2{
+    background: lightcoral;
+    order: 3;
+    flex-grow: 3;
+
+}
+.C3{
+    background: lawngreen;
+    order: 1;
+    flex-grow: 2;
+
+}
